@@ -24,9 +24,7 @@ Open the Command Palette (`Cmd/Ctrl + P`) and run **"Remove unclosed tags"**. Th
 
 ### Manual
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/b3nl/obsidian-tag-cleaner/releases).
-2. Copy them to `<your vault>/.obsidian/plugins/obsidian-tag-cleaner/`.
-3. Enable the plugin in **Settings → Community Plugins**.
+1. Install and Enable the plugin in **Settings → Community Plugins**.
 
 ## Development
 

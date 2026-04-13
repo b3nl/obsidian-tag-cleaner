@@ -1,6 +1,6 @@
 {
-	"name": "obsidian-tag-cleaner",
-	"version": "1.0.0",
+	"name": "b3nl-tag-cleaner",
+	"version": "1.0.1",
 	"description": "Obsidian plugin to remove unclosed (trailing-slash) hashtags from notes.",
 	"main": "main.js",
 	"type": "module",
