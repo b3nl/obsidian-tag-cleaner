@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-tag-cleaner",
+	"name": "Unfinished Nested Tag Cleaner",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Remove unclosed (trailing-slash) hashtags from your notes.",
+	"author": "b3nl",
+	"authorUrl": "https://github.com/b3nl",
 	"isDesktopOnly": false
 }
