@@ -13,8 +13,11 @@ export default tseslint.config(
 				projectService: {
 					allowDefaultProject: [
 						'eslint.config.js',
-						'manifest.json'
-					]
+						'jest.config.js',
+						'manifest.json',
+						'src/*.test.ts',
+					],
+					defaultProject: 'tsconfig.test.json',
 				},
 				tsconfigRootDir: import.meta.dirname,
 				extraFileExtensions: ['.json']
@@ -22,6 +25,17 @@ export default tseslint.config(
 		},
 	},
 	...obsidianmd.configs.recommended,
+	{
+		files: ['src/**/*.test.ts'],
+		languageOptions: {
+			globals: {
+				...globals.jest,
+			},
+		},
+		rules: {
+			'import/no-extraneous-dependencies': 'off',
+		},
+	},
 	globalIgnores([
 		"node_modules",
 		"dist",
