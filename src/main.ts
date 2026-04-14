@@ -2,7 +2,7 @@ import { Editor, MarkdownView, Notice, Plugin } from 'obsidian';
 import { processFile } from './tag-cleaner';
 
 export default class TagCleanerPlugin extends Plugin {
-  async onload() {
+  onload() {
     this.addCommand({
       id: 'remove-unclosed-tags',
       name: 'Remove unclosed tags',
