@@ -1,7 +1,7 @@
 {
 	"id": "b3nl-tag-cleaner",
 	"name": "Unfinished Nested Tag Cleaner",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "Remove unclosed (trailing-slash) hashtags from your notes.",
 	"author": "b3nl",
